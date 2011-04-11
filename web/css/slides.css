@@ -1,0 +1,217 @@
+/* ============================================================ */
+
+html,body             { font-family: Arial,sans-serif;
+                        font-weight: normal;
+                        font-size: 20pt;
+                        padding: 0px;
+                        margin: 0px;
+                        height: 100%;
+                      }
+
+#foilcontainer        { min-height: 100%;
+                        position: relative;
+                      }
+
+#foilheader           {
+                      }
+
+#foilbody             { padding-top: 100px;
+                        padding-bottom: 65px;
+                      }
+
+#foilfooter           { position: absolute;
+                        background-image: url(/graphics/footerbar.gif);
+                        background-repeat: no-repeat;
+                        background-position: right top;
+                        width: 924px;
+                        height: 65px;
+                        font-size: 8pt;
+                        bottom: 10px;
+                      }
+
+/* ============================================================ */
+
+div.titlepage         { width: 854px;
+                        color: #414141;
+                        padding-left: 170px;
+                        background-image: url(/graphics/titleback.png);
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                      }
+
+div.titlepage
+h1                    { font-family: Tahoma, Arial, sans-serif;
+                        font-size: 27pt;
+                        font-weight: normal;
+                        padding-top: 400pt;
+			margin-top: 0px;
+			margin-bottom: 0px;
+                      }
+
+div.titlepage
+h2                    { font-size: 20pt;
+                        font-weight: normal;
+                        padding-top: 0pt;
+			margin-top: 0px;
+			margin-bottom: 0px;
+                      }
+
+div.titlepage
+h3                    { font-size: 20pt;
+                        font-weight: normal;
+                        padding-top: 14pt;
+			margin-bottom: 0px;
+			margin-top: 0px;
+                      }
+
+div.titlepage
+h4                    { font-size: 20pt;
+                        font-weight: normal;
+                        padding-top: 0px;
+			margin-top: 0px;
+                      }
+
+/* ============================================================ */
+
+div.foil              { width: 904px;
+                        background-image: url(/graphics/titlebar.gif);
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        padding-left: 100px;
+                        padding-right: 20px;
+                      }
+
+div.foil h1           { font-family: Tahoma, Arial, sans-serif;
+                        font-size: 38pt;
+                        font-weight: bold;
+                        padding-top: 40px;
+			padding-bottom: 0px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+                      }
+
+/* ============================================================ */
+
+div.lastfoil          { width: 904px;
+                        color: #414141;
+                        background-image: url(/graphics/closing.png);
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        padding-left: 100px;
+                        padding-right: 20px;
+                      }
+
+div.lastfoil #foilbody { padding-top: 50px;
+                        padding-bottom: 65px;
+                      }
+
+
+div.lastfoil h1       { font-family: Tahoma, Arial, sans-serif;
+                        font-size: 30pt;
+                        font-weight: normal;
+                        padding-top: 340px;
+			padding-bottom: 0px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+                      }
+
+/* ============================================================ */
+
+ul                    { list-style-image: url(/graphics/bullet1.gif);
+                        font-family: Tahoma, Arial, sans-serif;
+                        font-size: 20pt;
+                      }
+
+li ul                 { list-style-image: url(/graphics/bullet2.gif);
+                        font-family: Tahoma, Arial, sans-serif;
+                        font-size: 18pt;
+                      }
+
+li ul li ul           { list-style-image: url(/graphics/bullet3.gif);
+                        font-family: Tahoma, Arial, sans-serif;
+                        font-size: 16pt;
+                      }
+
+li ul li ul li ul     { list-style-image: url(/graphics/bullet4.gif);
+                        font-family: Tahoma, Arial, sans-serif;
+                        font-size: 14pt;
+                      }
+
+dl                    { margin-top: 0px;
+                        padding-top: 1ex;
+                      }
+
+div.body p            { margin-bottom: 0px;
+                      }
+
+div.footer            { /* border: solid red 1px; */
+                        visibility: visible;
+                        font-family: Arial, sans-serif;
+                        width: 924px;
+			font-size: 8pt;
+                      }
+
+div.footer div.footertext {
+                        /* border: solid black 1px; */
+                        position: relative;
+                        top: 35px;
+                      }
+
+div.footer span.slidecopy {
+                        padding-left: 30px;
+                      }
+
+
+a                     { color: #414141; }
+a:link                { color: #414141; }
+a:visited             { color: #414141; }
+
+div.example-links     { font-size: 18pt;
+                        font-style: italic;
+			padding-top: 2ex;
+                      }
+
+div.mediaobject       { margin-top: 20px;
+                        text-align: center;
+                      }
+
+div.programlisting
+span.hi               { font-style: italic;
+                        background-color: #FFBBBB;
+                      }
+
+div.programlisting
+span.low              { font-style: italic;
+                        background-color: #BBBBBB;
+                      }
+
+span.input {
+  border: solid black 1px;
+  background-color: #EC7D1E;
+  padding: 4px;
+}
+
+span.step {
+  border: solid black 1px;
+  background-color: #202020;
+  color: white;
+  font-style: italic;
+  padding: 4px;
+}
+
+span.output {
+  border: solid black 1px;
+  background-color: #FDB813;
+  padding: 4px;
+}
+
+span.inputoutput {
+  border: solid black 1px;
+  background-color: #EC7D1E;
+  padding: 4px;
+}
+
+span.pipeline {
+  border: solid black 3px;
+  padding: 10px;
+}
